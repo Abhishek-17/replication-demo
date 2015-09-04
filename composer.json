@@ -1,0 +1,30 @@
+{
+  "name": "relaxed/replicatordemo",
+  "description": "replicator-demo",
+  "minimum-stability": "dev",
+  "license": "",
+  "authors": [
+    {
+      "name": "abhishek kumar",
+      "email": "abhi170893@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/Abhishek-17/couchdb-client"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/dickolsson/couchdb-replicator"
+    }
+  ],
+  "require": {
+    "relaxed/replicator": "dev-continuous_replication"
+  },
+  "autoload": {
+    "psr-4": {
+      "Relaxed\\ReplicatorDemo\\": "src"
+    }
+  }
+}
